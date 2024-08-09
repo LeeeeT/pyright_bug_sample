@@ -9,7 +9,7 @@ class Same:
     pass
 
 
-predicate.negate(bool)
+predicate.negate(bool)  # even this unused line is needed to reproduce the bug :)
 
 
 neutral = Same()
